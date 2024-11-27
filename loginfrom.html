@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login from</title>
+    <link rel="stylesheet" href="loginfrom.css">
+</head>
+<body>
+    <form class="from-contianer">
+    <div class="form-group">
+        <input type="text" placeholder="Full Name"required>
+    </div>
+    <div class="form-group">
+        <input type="text" placeholder="Email"required>
+    </div>
+    <div class="form-group">
+        <input type="password" placeholder="password"required>
+    </div>
+    <div class="form-group">
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="femal" id="femal">
+        <label for="femal">femal</label>
+        <div class="form-group">
+            <select required>
+                <option value="" disabled selected>Choose your country</option>
+                <option value="somalia">somalia</option>
+                <option value="kenya">kenya</option>
+                <option value="jabuti">jabuti</option>
+                
+            </select>
+        </div>
+        <div class="form-group terms">
+            <input type="checkbox" required>
+            <label>I accept the Terms and Conditions</label>
+        </div>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
